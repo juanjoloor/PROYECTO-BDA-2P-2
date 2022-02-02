@@ -1,0 +1,245 @@
+{
+  "uuid": "0e166c22-1f10-ec99-3188-8fda1a2eb7a2",
+  "last_modified": 1643733427646,
+  "version": "3.0.0.20500",
+  "name": "cubo",
+  "owner": "ADMIN",
+  "descriptor": "cubo",
+  "display_name": "cubo",
+  "cost": 50,
+  "status": "READY",
+  "segments": [
+    {
+      "uuid": "dea1c4c5-9399-717f-e6ff-921b12b1af4c",
+      "name": "FULL_BUILD",
+      "storage_location_identifier": "KYLIN_D845AFRPNK",
+      "date_range_start": 0,
+      "date_range_end": 9223372036854776000,
+      "source_offset_start": 0,
+      "source_offset_end": 0,
+      "status": "READY",
+      "size_kb": 13496,
+      "is_merged": false,
+      "estimate_ratio": [
+        -1,
+        0.49989672648584843,
+        0.8932964071279205,
+        0.5905776047069312,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "input_records": 60398,
+      "input_records_size": 5862661,
+      "last_build_time": 1643733427118,
+      "last_build_job_id": "dc249186-5883-6433-0c8b-768c9dbb5417",
+      "create_time_utc": 1643732945846,
+      "cuboid_shard_nums": {},
+      "total_shards": 1,
+      "blackout_cuboids": [],
+      "binary_signature": null,
+      "dictionaries": {
+        "DIMDATE.DAYNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFYEAR/2c354bd7-927e-ad15-8885-c4d33b34b332.dict",
+        "DIMPRODUCT.PRODUCTSUBCATEGORYKEY": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/PRODUCTSUBCATEGORYKEY/9462827c-fdf4-2206-93a3-0e07a7619cc2.dict",
+        "FACTINTERNETSALES.SALESTERRITORYKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/SALESTERRITORYKEY/dfac4235-cce2-3c71-d676-a153b965cf14.dict",
+        "DIMDATE.WEEKNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/WEEKNUMBEROFYEAR/abc1ca56-b98b-fa93-7155-4ac7f11dd522.dict",
+        "DIMDATE.ENGLISHMONTHNAME": "/dict/ADVENTUREWORKSDW.DIMDATE/ENGLISHMONTHNAME/30398330-5cd5-aa8a-801c-a293f406a635.dict",
+        "DIMDATE.MONTHNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/MONTHNUMBEROFYEAR/f4e48d66-2a0b-73eb-e06c-b662883970df.dict",
+        "DIMDATE.CALENDARYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/CALENDARYEAR/6d783d59-9867-a9b4-e105-164c3e9d6c71.dict",
+        "DIMDATE.CALENDARSEMESTER": "/dict/ADVENTUREWORKSDW.DIMDATE/CALENDARSEMESTER/123c1e17-11be-bcff-1468-5e52f6de60c9.dict",
+        "DIMSALESTERRITORY.SALESTERRITORYCOUNTRY": "/dict/ADVENTUREWORKSDW.DIMSALESTERRITORY/SALESTERRITORYCOUNTRY/6fcb9e95-00e7-8443-dec3-941029548d04.dict",
+        "DIMDATE.ENGLISHDAYNAMEOFWEEK": "/dict/ADVENTUREWORKSDW.DIMDATE/ENGLISHDAYNAMEOFWEEK/434b89f0-0acb-9ae0-1f2c-5b71054c6059.dict",
+        "FACTINTERNETSALES.PRODUCTKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/PRODUCTKEY/405f778d-f322-fd14-c05e-19fa982ab88e.dict",
+        "DIMSALESTERRITORY.SALESTERRITORYGROUP": "/dict/ADVENTUREWORKSDW.DIMSALESTERRITORY/SALESTERRITORYGROUP/026a11b2-fe3a-8c9f-659c-b814a394b96b.dict",
+        "DIMPRODUCT.PRODUCTCATEGORYKEY": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/PRODUCTCATEGORYKEY/3f71fef0-4477-d404-150e-04fb99e6cd2e.dict",
+        "DIMDATE.CALENDARQUARTER": "/dict/ADVENTUREWORKSDW.DIMDATE/CALENDARQUARTER/ca9b16de-6aa9-bea9-0c62-f1a89c70ee32.dict",
+        "FACTINTERNETSALES.ORDERDATEKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/ORDERDATEKEY/f3f26562-7d31-9281-baee-61d80861e85f.dict",
+        "DIMSALESTERRITORY.SALESTERRITORYREGION": "/dict/ADVENTUREWORKSDW.DIMSALESTERRITORY/SALESTERRITORYREGION/5cddfa7d-5f14-3a55-2ae4-bd92a929754a.dict",
+        "DIMDATE.DAYNUMBEROFWEEK": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFWEEK/53e0d3b2-e969-fea8-d28e-f3d287841c2f.dict",
+        "DIMDATE.DAYNUMBEROFMONTH": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFMONTH/41296cdb-aca8-fefd-76f7-6b147d93b5af.dict"
+      },
+      "snapshots": {
+        "ADVENTUREWORKSDW.DIMPRODUCTSUBCATEGORY": "/table_snapshot/ADVENTUREWORKSDW.DIMPRODUCTSUBCATEGORY/bdf8afe8-624d-206e-856b-e31946870ff6.snapshot",
+        "ADVENTUREWORKSDW.DIMPRODUCT": "/table_snapshot/ADVENTUREWORKSDW.DIMPRODUCT/e63138ba-3973-75bb-8c87-28563649cf64.snapshot",
+        "ADVENTUREWORKSDW.DIMDATE": "/table_snapshot/ADVENTUREWORKSDW.DIMDATE/873ff7e3-f702-133e-3202-430586501030.snapshot",
+        "ADVENTUREWORKSDW.DIMSALESTERRITORY": "/table_snapshot/ADVENTUREWORKSDW.DIMSALESTERRITORY/741d85b2-6dcd-7773-be8f-0c14999e9bce.snapshot",
+        "ADVENTUREWORKSDW.DIMPRODUCTCATEGORY": "/table_snapshot/ADVENTUREWORKSDW.DIMPRODUCTCATEGORY/b430cb9e-c8b7-9d18-24ed-3a97986fc39a.snapshot"
+      },
+      "rowkey_stats": [
+        [
+          "DIMDATE.DAYNUMBEROFMONTH",
+          31,
+          1
+        ],
+        [
+          "DIMDATE.DAYNUMBEROFYEAR",
+          365,
+          2
+        ],
+        [
+          "DIMDATE.WEEKNUMBEROFYEAR",
+          53,
+          1
+        ],
+        [
+          "DIMDATE.ENGLISHMONTHNAME",
+          12,
+          1
+        ],
+        [
+          "DIMDATE.MONTHNUMBEROFYEAR",
+          12,
+          1
+        ],
+        [
+          "DIMDATE.CALENDARQUARTER",
+          4,
+          1
+        ],
+        [
+          "DIMSALESTERRITORY.SALESTERRITORYCOUNTRY",
+          6,
+          1
+        ],
+        [
+          "DIMSALESTERRITORY.SALESTERRITORYGROUP",
+          3,
+          1
+        ],
+        [
+          "DIMPRODUCT.PRODUCTSUBCATEGORYKEY",
+          17,
+          1
+        ],
+        [
+          "DIMDATE.DAYNUMBEROFWEEK",
+          7,
+          1
+        ],
+        [
+          "DIMPRODUCT.PRODUCTCATEGORYKEY",
+          3,
+          1
+        ],
+        [
+          "DIMDATE.CALENDARYEAR",
+          4,
+          1
+        ],
+        [
+          "DIMDATE.CALENDARSEMESTER",
+          2,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.PRODUCTKEY",
+          158,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.ORDERDATEKEY",
+          1124,
+          2
+        ],
+        [
+          "DIMDATE.ENGLISHDAYNAMEOFWEEK",
+          7,
+          1
+        ],
+        [
+          "DIMSALESTERRITORY.SALESTERRITORYREGION",
+          10,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.SALESTERRITORYKEY",
+          10,
+          1
+        ]
+      ],
+      "stream_source_checkpoint": null,
+      "dimension_range_info_map": {
+        "DIMDATE.DAYNUMBEROFYEAR": {
+          "min": "1",
+          "max": "365"
+        },
+        "DIMPRODUCT.PRODUCTSUBCATEGORYKEY": {
+          "min": "1",
+          "max": "37"
+        },
+        "FACTINTERNETSALES.SALESTERRITORYKEY": {
+          "min": "1",
+          "max": "10"
+        },
+        "DIMDATE.WEEKNUMBEROFYEAR": {
+          "min": "1",
+          "max": "53"
+        },
+        "DIMDATE.ENGLISHMONTHNAME": {
+          "min": "April",
+          "max": "September"
+        },
+        "DIMDATE.MONTHNUMBEROFYEAR": {
+          "min": "1",
+          "max": "12"
+        },
+        "DIMDATE.CALENDARYEAR": {
+          "min": "2005",
+          "max": "2008"
+        },
+        "DIMDATE.CALENDARSEMESTER": {
+          "min": "1",
+          "max": "2"
+        },
+        "DIMDATE.ENGLISHDAYNAMEOFWEEK": {
+          "min": "Friday",
+          "max": "Wednesday"
+        },
+        "DIMSALESTERRITORY.SALESTERRITORYCOUNTRY": {
+          "min": "Australia",
+          "max": "United States"
+        },
+        "FACTINTERNETSALES.PRODUCTKEY": {
+          "min": "214",
+          "max": "606"
+        },
+        "DIMSALESTERRITORY.SALESTERRITORYGROUP": {
+          "min": "Europe",
+          "max": "Pacific"
+        },
+        "DIMPRODUCT.PRODUCTCATEGORYKEY": {
+          "min": "1",
+          "max": "4"
+        },
+        "DIMDATE.CALENDARQUARTER": {
+          "min": "1",
+          "max": "4"
+        },
+        "FACTINTERNETSALES.ORDERDATEKEY": {
+          "min": "20050701",
+          "max": "20080731"
+        },
+        "DIMSALESTERRITORY.SALESTERRITORYREGION": {
+          "min": "Australia",
+          "max": "United Kingdom"
+        },
+        "DIMDATE.DAYNUMBEROFWEEK": {
+          "min": "1",
+          "max": "7"
+        },
+        "DIMDATE.DAYNUMBEROFMONTH": {
+          "min": "1",
+          "max": "31"
+        }
+      }
+    }
+  ],
+  "create_time_utc": 1643732918915,
+  "cuboid_bytes": "eAE1U0mSHDAI+4vPfWBf+mup/H0kJrkZg4UQ8p9nZRr+vtEh+nmz9b5qn7ejzSOSn+fWNQjk89RlI943h1XqKq3va1mNOrO1QKGFDbIWSYwGgFfhkUriNqPtfSc+L9uJVVfRCyBdluRYCO5t/rVAvSaDNd7zVDEF3hsCII8a9MUVH3s1e1mRbyYqEaqAoM6GLwhOLZJWwXmDqREyLD200QRvzEiASpLcDkaue1JMkucCAWitCw41FxjKQsbB2WdRpZUzYGQRVDA7TrJw5tx2Udl50UxyGaq+0AQsqZQpziBGSTSULMqXM0LnA8zFTND8VoWeCMhIBwAUtZboFi1kC/VCOLcDimyux8mhqkRqUW7zFu0NReJIQleOuVxUD0Xz7gIrc6qhnkptQJQLykQSkXCjeOrXkepgd3Ik8Q4pF8PMTT/BjaJ8VEMBYDYJzplxYWFJKIXbCs0xXrC47DwKXhTS0dvtfOxkOD0Y2oWmCTOcVVlyazzDwLXe1Ox3bO8TQa0ablLjRKSiJv89WUcy+WGQT70f4EPYxBxgCE7cWVIPX+4s8VOYwbSfh0UAKymGzRAX7gdYwmVk2JLXu4behZBM1iiVdz9fwk3tZA1R0BiWmDOIGjYf+BZ4aMv/gE92ooUR0xO3FGEHhfm7MrjuPIZvjFf4JacQgNEuBXVmcws0GAuTJfZCYk4IQPFLhQ5NsJZUwFs8/v4AntzYEw==",
+  "cuboid_bytes_recommend": null,
+  "cuboid_last_optimized": 0,
+  "snapshots": {}
+}
